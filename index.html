@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teachers' Day - Coding Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="confetti"></canvas>
+
+<div class="container" id="formContainer">
+  <img src="logo.jpg" alt="Coding Club Logo" class="logo">
+  <h1>Teachers’ Day Wishes 🎉</h1>
+  <p>உங்கள் பெயர் மற்றும் Email ID உள்ளிடுங்கள்</p>
+  
+  <form id="wishForm">
+    <input type="text" id="nameInput" placeholder="உங்கள் பெயர்" required>
+    <input type="email" id="emailInput" placeholder="உங்கள் Email ID" required>
+    <button type="submit">வாழ்த்து பெற</button>
+  </form>
+</div>
+
+<div class="container" id="wishContainer" style="display:none;">
+  <img src="logo.jpg" alt="Coding Club Logo" class="logo">
+  <h1>Happy Teachers’ Day 🎉</h1>
+  <div id="teacherName" class="name"></div>
+  <div id="quote" class="quote"></div>
+  <div class="details">
+    <p>📅 தேதி: 5 செப்டம்பர் 2025</p>
+    <p>📍 Prince Shri Venkateshwara Arts and Science College - Coding Club Hall</p>
+    <p>🕒 நேரம்: காலை 10:00 மணி முதல்</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
