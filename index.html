@@ -10,25 +10,25 @@
 
 <canvas id="confetti"></canvas>
 
-<!-- Logo and title -->
-<div class="logo-container">
-  <img src="./logo.jpg" alt="Coding Club Logo" class="logo">
-  <span class="logo-text">Coding Club – BCA Department</span>
-</div>
-
 <!-- Form Section -->
 <div class="container" id="formContainer">
+  <div class="logo-container">
+    <!-- Make sure logo.jpg is in the same folder as this HTML -->
+    <img src="./logo.jpg" alt="Coding Club Logo" class="logo">
+    <span class="logo-text">Coding Club – BCA Department</span>
+  </div>
+
   <h1>Teachers’ Day Wishes 🎉</h1>
   <p>Insert your name and email-id here!!</p>
   
   <form id="wishForm">
-    <input type="text" id="nameInput" placeholder="your name" required>
-    <input type="email" id="emailInput" placeholder="your Email ID" required>
-    <button type="submit">wishes</button>
+    <input type="text" id="nameInput" placeholder="Your Name" required>
+    <input type="email" id="emailInput" placeholder="Your Email ID" required>
+    <button type="submit">Wishes</button>
   </form>
 </div>
 
-<!-- Wishes Display Section -->
+<!-- Wishes Section -->
 <div class="container" id="wishContainer" style="display:none;">
   <div class="logo-container">
     <img src="./logo.jpg" alt="Coding Club Logo" class="logo">
