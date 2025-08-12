@@ -29,6 +29,8 @@ body {
 
 /* Logo + Text Container */
 .logo-container {
+  background-image: url("C:\Users\HP\Downloads\logo.jpg");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
